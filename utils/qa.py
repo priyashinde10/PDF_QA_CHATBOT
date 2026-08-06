@@ -1,8 +1,3 @@
-# ==========================================================
-# qa.py
-# Question Answering using Ollama (Llama 3.2)
-# ==========================================================
-
 import os
 from dotenv import load_dotenv
 from langchain_google_genai import ChatGoogleGenerativeAI
@@ -39,4 +34,4 @@ Answer:
 
     response = llm.invoke(prompt)
 
-    return response.content
+    return response.text
