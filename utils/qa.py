@@ -3,17 +3,14 @@
 # Question Answering using Ollama (Llama 3.2)
 # ==========================================================
 
-import os
-from dotenv import load_dotenv
-from langchain_google_genai import ChatGoogleGenerativeAI
+from langchain_ollama import ChatOllama
 
-load_dotenv()
-
-llm = ChatGoogleGenerativeAI(
-    model="gemini-2.0-flash",
-    google_api_key=os.getenv("GOOGLE_API_KEY"),
+# Load Llama 3.2
+llm = ChatOllama(
+    model="llama3.2",
     temperature=0
 )
+
 
 def generate_answer(question, context):
 
