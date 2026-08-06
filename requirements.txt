@@ -12,11 +12,15 @@ langchain
 
 langchain-community
 
+langchain-ollama
+
 langchain-huggingface
 
 langchain-text-splitters
 
 faiss-cpu
+
+torchvision
 
 pypdf
 
