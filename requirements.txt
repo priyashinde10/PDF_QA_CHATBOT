@@ -12,8 +12,6 @@ langchain
 
 langchain-community
 
-langchain-ollama
-
 langchain-huggingface
 
 langchain-text-splitters
@@ -27,3 +25,9 @@ pypdf
 pandas
 
 numpy
+
+langchain-google-genai
+
+google-generativeai
+
+python-dotenv

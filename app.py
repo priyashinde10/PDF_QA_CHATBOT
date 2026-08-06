@@ -4,6 +4,7 @@ import streamlit as st
 
 from chatbot import PDFChatBot
 from rag import create_vector_store
+from langchain_ollama import ChatOllama
 
 # ----------------------------------------------------
 
