@@ -34,4 +34,4 @@ Answer:
 
     response = llm.invoke(prompt)
 
-    return response.text
+    return response.content[0]["text"]
