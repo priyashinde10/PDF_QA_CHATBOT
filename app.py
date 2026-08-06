@@ -205,7 +205,7 @@ with col1:
 with col2:
     st.metric(
         "🤖 AI Model",
-        "Llama3.2"
+        "gemini-flash-latest"
     )
 
 with col3:
